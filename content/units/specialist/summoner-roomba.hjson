@@ -1,0 +1,48 @@
+type: mech
+name: Summoner Roomba
+description: Summon.
+health: 20000
+armor: 20
+mechFrontSway: 0
+mechSideSway: 0
+speed: 1
+circleTarget: true
+range: 250
+itemCapacity: 10
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnX: 0
+    spawnY: 0
+    unit: explosive-roomba
+    spawnTime: 600
+  }
+  {
+    type: UnitSpawnAbility
+    spawnX: 0
+    spawnY: 0
+    unit: explosive-roomba
+    spawnTime: 600
+  }
+  {
+    type: UnitSpawnAbility
+    spawnX: 0
+    spawnY: 0
+    unit: explosive-roomba
+    spawnTime: 600
+  }
+  {
+    type: UnitSpawnAbility
+    spawnX: 0
+    spawnY: 0
+    unit: explosive-roomba
+    spawnTime: 600
+  }
+  {
+    type: UnitSpawnAbility
+    spawnX: 0
+    spawnY: 0
+    unit: explosive-roomba
+    spawnTime: 600
+  }
+]

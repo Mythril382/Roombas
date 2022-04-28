@@ -1,0 +1,38 @@
+type: flying
+name: Builder Roomba
+description: Build.
+health: 19000
+armor: 19
+speed: 1
+flying: true
+itemCapacity: 30
+range: 240
+engineSize: 0
+buildSpeed: 3
+mineSpeed: 6
+mineTier: 3
+controller: BuilderAI
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    reload: 9
+    rotate: true
+    rotateSpeed: 5
+    ejectEffect: none
+    shootSound: sap
+    bullet: {
+      type: SapBulletType
+      sapStrength: 0.85
+      length: 55
+      damage: 40
+      shootEffect: shootSmall
+      hitColor: bf92f9
+      despawnEffect: none
+      width: 0.55
+      lifetime: 30
+      knockback: -1
+    }
+  }
+]
