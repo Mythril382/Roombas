@@ -1,0 +1,12 @@
+for v0.2
+
+assaults:
+roomba tank - fires roombas
+
+miscs:
+plastanium roomba - like the roombas on plastanium conveyor
+
+supports:
+payload roomba - flying, can carry payloads
+
+add factories and stuff
