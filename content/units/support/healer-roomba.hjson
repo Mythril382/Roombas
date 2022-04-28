@@ -1,0 +1,25 @@
+type: flying
+name: Healer Roomba
+description: Heal.
+health: 12000
+armor: 12
+speed: 1
+faceTarget: true
+flying: true
+itemCapacity: 20
+range: 240
+engineSize: 0
+controller: DefenderAI
+weapons: [
+  {
+    name: none
+    type: RepairBeamWeapon
+    x: 0
+    y: 0
+    shootY: 0
+    repairSpeed: 845220000000
+    bullet: {
+      maxRange: 240
+    }
+  }
+]

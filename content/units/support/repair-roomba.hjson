@@ -1,0 +1,36 @@
+type: flying
+name: Repair Roomba
+description: Repair.
+health: 12000
+armor: 12
+speed: 1
+faceTarget: true
+flying: true
+itemCapacity: 20
+range: 240
+engineSize: 0
+controller: RepairAI
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    reload: 0
+    shootCone: 360
+    alternate: false
+    shootY: 0
+    shootSound: lasershoot
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 13
+      speed: 5.2
+      healPercent: 100
+      backColor: 98ffa9
+      frontColor: ffffff
+      lifetime: 50
+      collidesTeam: true
+      pierce: true
+      pierceBuilding: true
+    }
+  }
+]
