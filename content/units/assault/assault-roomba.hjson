@@ -1,0 +1,44 @@
+type: mech
+name: Assault Roomba
+description: Missiles.
+health: 11000
+armor: 11
+mechFrontSway: 0
+mechSideSway: 0
+speed: 1
+faceTarget: false
+range: 240
+itemCapacity: 10
+weapons: [
+  {
+    name: assault-roomba-launcher
+    rotate: true
+    shootCone: 360
+    rotateSpeed: 2.5
+    top: true
+    alternate: false
+    x: 0
+    y: 0
+    reload: 0
+    recoil: 2
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      speed: 3.7
+      damage: 18
+      width: 8
+      height: 8
+      shrinkY: 0
+      weaveMag: 3
+      weaveScale: 4
+      splashDamageRadius: 25
+      splashDamage: 35
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      ammoMultiplier: 4
+      lightningDamage: 10
+      lightning: 2
+      lightningLength: 10
+    }
+  }
+]

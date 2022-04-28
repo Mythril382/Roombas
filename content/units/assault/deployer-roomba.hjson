@@ -1,0 +1,36 @@
+type: mech
+name: Deployer Roomba
+description: Mines.
+health: 20000
+armor: 20
+mechFrontSway: 0
+mechSideSway: 0
+speed: 1
+faceTarget: false
+range: 250
+controller: SuicideAI
+itemCapacity: 10
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    shootY: 0
+    inaccuracy: 360
+    shootCone: 360
+    reload: 300
+    shootSound: artillery
+    shootEffect: none
+    bullet: {
+      sprite: mine-bullet
+      damage: 0
+      splashDamageRadius: 60
+      splashDamage: 80
+      speed: 0
+      lifetime: 3600
+      width: 14
+      height: 14
+      shrinkY: 0
+    }
+  }
+]
