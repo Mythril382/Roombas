@@ -1,0 +1,40 @@
+type: mech
+name: Explosive Roomba
+description: Boom.
+health: 1500
+mechFrontSway: 0
+mechSideSway: 0
+speed: 1.5
+faceTarget: false
+range: 250
+controller: SuicideAI
+itemCapacity: 25
+weapons: [
+  {
+    name: none
+    x: 0
+    y: 0
+    shootOnDeath: true
+    reload: 24
+    shootCone: 180
+    ejectEffect: none
+    shootSound: explosion
+    shootY: 0
+    mirror: false
+    bullet: {
+      type: BombBulletType
+      width: 0
+      height: 0
+      sprite: clear
+      hitEffect: pulverize
+      lifetime: 10
+      speed: 1
+      instantDisappear: true
+      splashDamageRadius: 85
+      splashDamage: 150
+      killShooter: true
+      hittable: false
+      collidesAir: true
+    }
+  }
+]
