@@ -1,0 +1,11 @@
+type: mech
+name: Plastanium Roomba
+description: The roomba origin.
+health: 5800000
+armor: 5800
+speed: 0.55
+mechFrontSway: 0
+mechSideSway: 0
+faceTarget: false
+range: 500
+itemCapacity: 40
