@@ -1,0 +1,68 @@
+type: mech
+name: Roomba Tank
+description: Tank.
+health: 25000
+armor: 25
+mechFrontSway: 0
+mechSideSway: 0
+speed: 2
+hitSize: 26
+faceTarget: false
+range: 240
+itemCapacity: 10
+mechStepParticles: true
+mechStepShake: 5
+weapons: [
+  {
+    name: roomba-tank-launcher
+    x: 0
+    y: 0
+    top: true
+    alternate: false
+    rotate: true
+    reload: 15
+    inaccuracy: 0
+    recoil: 5
+    shootSound: missile
+    bullet: {
+      type: MissileBulletType
+      sprite: missile-large
+      width: 25
+      height: 25
+      speed: 5
+      lifetime: 60
+      damage: 280
+      shrinkY: 0
+      weaveMag: 5
+      weaveScale: 6
+      splashDamageRadius: 30
+      splashDamage: 50
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      ammoMultiplier: 4
+      lightningDamage: 80
+      lightning: 5
+      lightningLength: 30
+      fragBullets: 5
+      fragBullet: {
+        type: ArtilleryBulletType
+        sprite: roombas-roomba
+        backColor: ff795e
+        width: 8
+        height: 8
+        speed: 3.85
+        damage: 10
+        shrinkY: 0
+        knockback: 2.5
+        lifetime: 80
+        homingPower: 0.1
+        weaveMag: 3
+        weaveScale: 4
+        splashDamageRadius: 85
+        splashDamage: 150
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+      }
+    }
+  }
+]
