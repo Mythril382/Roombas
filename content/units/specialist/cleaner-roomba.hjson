@@ -12,5 +12,4 @@ legSplashDamage: 845220000000
 legSplashRange: 10.75
 hovering: true
 range: 250
-controller: SuicideAI
 itemCapacity: 30
