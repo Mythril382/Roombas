@@ -1,0 +1,12 @@
+type: flying
+name: Payload Roomba
+description: Carry.
+health: 12000
+armor: 12
+speed: 3
+flying: true
+itemCapacity: 20
+range: 240
+engineSize: 0
+controller: DefenderAI
+payloadCapacity: 845220000000
