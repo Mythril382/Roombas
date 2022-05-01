@@ -1,12 +1,9 @@
-for v0.2
-
-assaults:
-roomba tank - fires roombas
+for v0.3
 
 miscs:
-plastanium roomba - like the roombas on plastanium conveyor
+quezler - roomba god
 
-supports:
-payload roomba - flying, can carry payloads
+blocks:
+pyro-roomba wall - scorch but roomba but wall
 
 add factories and stuff
