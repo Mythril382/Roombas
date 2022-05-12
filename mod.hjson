@@ -2,6 +2,6 @@ name: roombas
 displayName: Roombas
 author: Mythril
 description: Roombas.
-version: 0.2
-minGameVersion: 135
+version: 0.3
+minGameVersion: 136
 repo: Mythril382/Roombas
