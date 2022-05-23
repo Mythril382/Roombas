@@ -1,8 +1,5 @@
 for v0.4
 
-miscs:
-quezler - roomba god
-
 blocks:
 pyro-roomba wall - scorch but roomba but wall
 
