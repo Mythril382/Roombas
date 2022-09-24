@@ -1,6 +1,0 @@
-for v0.4
-
-blocks:
-pyro-roomba wall - scorch but roomba but wall
-
-add factories and stuff
